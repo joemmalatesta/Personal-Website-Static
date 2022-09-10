@@ -127,6 +127,9 @@ body{
     .main-statement p {
         font-size: 1.5rem;
     }
+    .about-items p{
+        font-size: 1.3rem !important;
+    }
 
 }
 #mailto {
