@@ -105,13 +105,13 @@ body{
     .copyright{
         font-size: 2vh;
     }
-    #mailto{
+    /* #mailto{
         position: relative;
         padding-left: 10rem;
         width: 2rem
-    }
+    } */
     .copy-pic{
-        width: 3vh;
+        width: 1.5rem;
     }
     #input-email{
         max-width: 70%;
@@ -132,10 +132,10 @@ body{
     }
 
 }
-#mailto {
+/* #mailto {
     position: relative;
     right: .7rem;
-}
+} */
 .card {
     background-color: rgb(46, 46, 46) !important;
     color: rgba(255, 255, 255, 0.712);
