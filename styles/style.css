@@ -132,9 +132,8 @@ body{
     }
 
 }
-/* #mailto {
-    position: relative;
-    right: .7rem;
+/* .copy-pic{
+    width: 3rem;
 } */
 .card {
     background-color: rgb(46, 46, 46) !important;
