@@ -10,7 +10,7 @@ body{
     color: rgb(215, 215, 215) !important;
 }
 .standout {
-    color: #30d5c8;
+    color: #3cdfff;
 }
 
 /* Navbar and Nav Links*/
@@ -26,7 +26,7 @@ body{
     font-size: 1.5rem !important;
 }
 .navigation-link:hover{
-    color: #30d5c8 !important;
+    color: #3cdfff !important;
     transition: .5s;
 }
 .hamburger{
@@ -87,7 +87,7 @@ body{
     font-size: 1rem;
 }
 .card:hover{
-    border-bottom: 5px solid #30d5c8;
+    border-bottom: 5px solid #3cdfff;
     transition: .2s;
 }
 .card-pic{
@@ -109,7 +109,7 @@ body{
     font-size: 3rem;
 }
 #color1{
-    color: #30d5c8;
+    color: #3cdfff;
 
 }
 #color2{
@@ -117,13 +117,13 @@ body{
 }
 /* Text Elements */
 .blog-title{
-    color:#30d5c8;
+    color:#3cdfff;
     font-family: sans-serif;
     font-size: 2.3rem;
     font-weight: bold;
 }
 .blog-header{
-    color:#78e9ff;
+    color:#3cdfff;
     font-size: 2rem;
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
