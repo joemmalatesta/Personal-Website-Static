@@ -1,3 +1,4 @@
+/* General Styles*/
 *{
     margin: 0;
     padding: 0;
@@ -7,6 +8,15 @@
 body{
     background-color: rgb(12,12,12) !important;
     color: rgb(215, 215, 215) !important;
+}
+.standout {
+    color: #30d5c8;
+}
+
+/* Navbar and Nav Links*/
+.navbar-colors{
+    background-color: #262626;
+    color: rgb(255,255,255);
 }
 .navbar-colors{
     background-color: #262626;
@@ -19,6 +29,12 @@ body{
     color: #30d5c8 !important;
     transition: .5s;
 }
+.hamburger{
+    outline: 1px solid black;
+}
+
+
+/* LANDING */
 .main-statement h1{
     font-family: 'Josefun Sans', sans-serif;
     font-size: 5rem;
@@ -27,28 +43,65 @@ body{
     font-family: 'Raleway', sans-serif;
     font-size: 3rem;
 }
-@media all and (max-width: 500px) {
-    .aboutme h1{
-        font-size: 12vw;
-    }
-}
-.blogpost{
-    font-family: 'Josefin Sans', sans-serif;
-}
-.hamburger{
-    outline: 1px solid black;
 
+
+
+/* Transition Elements (Arrows) */
+.navigation-statement h1{
+    font-size: 2rem;
+}
+.navigation-statement p{
+    font-size: 1.2rem;
+    /* Change font families.  */
+}
+.arrow{
+    text-align: center;
+    padding: 1rem;
 }
 
+
+
+/* ABOUT */
+.about-items{
+    margin: 4% 0px 7% 0px;
+    font-size: 1.9rem;
+}
+#about-logos img{
+    margin: 0px .5rem;
+}
+
+
+
+/* BLOG CARDS */
+.card {
+    background-color: rgb(46, 46, 46) !important;
+    color: rgba(255, 255, 255, 0.712);
+    font-family: 'EB Garamond', sans-serif;
+    text-align: center;
+}
+.card-title {
+    font-family: 'Monsterrat', sans-serif;
+    font-weight: bold !important;
+}
+.card-text{
+    font-size: 1rem;
+}
+.card:hover{
+    border-bottom: 5px solid #30d5c8;
+    transition: .2s;
+}
 .card-pic{
     object-fit: cover;
     height: 100%;
     border-radius: 12px;
 }
-.card{
-    text-align: center;
-}
 
+
+
+
+
+/* Blog posts */
+/* Home Nav */
 #nameplate{
     position: relative;
     top: .4rem;
@@ -62,6 +115,26 @@ body{
 #color2{
     color: white;
 }
+/* Text Elements */
+.blog-title{
+    color:#30d5c8;
+    font-family: sans-serif;
+    font-size: 2.3rem;
+    font-weight: bold;
+}
+.blog-header{
+    color:#78e9ff;
+    font-size: 2rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+.blog-text{
+    font-size: 1.3rem;
+    font-family: 'Monsterrat', sans-serif;
+}
+
+
+/* NEWSLETTER (dynamic) */
 
 #input-email{
     width: 20rem;
@@ -84,15 +157,21 @@ body{
 #input-email:focus::placeholder{
     color: transparent;
 }
-.arrow{
-    text-align: center;
-    padding: 1rem;
-}
 
+
+/* FOOTER */
 .copyright{
     color: #121212;
     font-size: 1.5rem;
 }
+
+
+
+
+
+
+
+/* MEDIA QUERIES */
 .mobile-only{
     width: 10rem;
 }
@@ -105,11 +184,6 @@ body{
     .copyright{
         font-size: 2vh;
     }
-    /* #mailto{
-        position: relative;
-        padding-left: 10rem;
-        width: 2rem
-    } */
     .copy-pic{
         width: 1.5rem;
     }
@@ -132,74 +206,10 @@ body{
     }
 
 }
-/* .copy-pic{
-    width: 3rem;
-} */
-.card {
-    background-color: rgb(46, 46, 46) !important;
-    color: rgba(255, 255, 255, 0.712);
-    font-family: 'EB Garamond', sans-serif;
-}
-.card-title {
-    font-family: 'Monsterrat', sans-serif;
-    font-weight: bold !important;
-}
-.card-text{
-    font-size: 1rem;
-}
-.card:hover{
-    border-bottom: 5px solid #30d5c8;
-    transition: .2s;
-}
-.standout {
-    color: #30d5c8;
-}
-.about-items{
-    margin: 4% 0px 7% 0px;
-    /* outline: 2px solid white; */
-}
-.about-items p{
-    font-size: 1.9rem;
-}
-.blog-content h1{
-    font-family: 'Josefin Sans', sans-serif;
-}
-.blog-content p{
-    font-family: 'Monsterrat', sans-serif;
-}
-.navigation-statement h1{
-    font-size: 2rem;
-}
-.navigation-statement p{
-    font-size: 1.2rem;
-    /* Change font families.  */
-}
-#about-logos img{
-    margin: 0px .5rem;
-}
-#main-about-picture{
-    width: 70%;
-}
 
 
 
-/* Blog stuff*/
-.blog-title{
-    color:#30d5c8;
-    font-family: sans-serif;
-    font-size: 2.3rem;
-    font-weight: bold;
-}
-.blog-header{
-    color:#78e9ff;
-    font-size: 2rem;
-    font-family: 'Raleway', sans-serif;
-    font-weight: bold;
-}
-.blog-text{
-    font-size: 1.3rem;
-    font-family: 'Monsterrat', sans-serif;
-}
-.about-text{
-    font-size: 1.5rem;
-}
+
+
+
+
