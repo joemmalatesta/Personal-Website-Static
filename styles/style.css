@@ -64,7 +64,7 @@ body{
 
 /* ABOUT */
 .about-items{
-    margin: 4% 0px 7% 0px;
+    margin: 2% 0px 2% 0px;
     font-size: 1.9rem;
     font-family: "Inter", sans-serif;
 }
@@ -209,10 +209,6 @@ body{
     .about-items p{
         font-size: 1.3rem !important;
     }
-    /* .card-pic{
-        height: 5px;
-    } */
-
 }
 
 
