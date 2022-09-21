@@ -19,10 +19,6 @@ body{
     background-color: #262626;
     color: rgb(255,255,255);
 }
-.navbar-colors{
-    background-color: #262626;
-    color: rgb(255,255,255);
-}
 .navigation-element{
     font-size: 1.5rem !important;
 }
@@ -180,10 +176,8 @@ body{
 
 
 /* MEDIA QUERIES */
-.mobile-only{
-    width: 10rem;
-}
-@media screen and (min-width: 1000px){
+
+@media screen and (min-width: 900px){
     .mobile-only{
         display: none !important;
     }
@@ -211,6 +205,9 @@ body{
     }
     .about-items p{
         font-size: 1.3rem !important;
+    }
+    .desktop-only{
+        display: none !important;
     }
 }
 
