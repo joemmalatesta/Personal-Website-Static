@@ -1,219 +1,205 @@
 /* General Styles*/
-*{
-    margin: 0;
-    padding: 0;
-    text-decoration: none !important;
-    list-style: none;
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none !important;
+  list-style: none;
 }
-body{
-    background-color: rgb(25,25,25) !important;
-    color: rgb(207, 207, 207) !important;
-    font-family: "Inter", sans-serif;
+body {
+  background-color: rgb(25, 25, 25) !important;
+  color: rgb(207, 207, 207) !important;
+  font-family: "Inter", sans-serif;
 }
 .standout {
-    color: #3cdfff;
+  color: #3cdfff;
 }
 
 /* Navbar and Nav Links*/
-.navbar-colors{
-    background-color: #262626;
-    color: rgb(255,255,255);
+.navbar-colors {
+  background-color: #262626;
+  color: rgb(255, 255, 255);
 }
-.navigation-element{
-    font-size: 1.5rem !important;
+.navigation-element {
+  font-size: 1.5rem !important;
 }
-.navigation-link:hover{
-    color: #3cdfff !important;
-    transition: .5s;
+.navigation-link:hover {
+  color: #3cdfff !important;
+  transition: 0.5s;
 }
-.hamburger{
-    outline: 1px solid black;
+.hamburger {
+  outline: 1px solid black;
 }
-
 
 /* LANDING */
-.main-statement h1{
-    font-family: 'Inter', sans-serif;
-    font-size: 5rem;
+.main-statement h1 {
+  font-family: "Inter", sans-serif;
+  font-size: 5rem;
 }
 .main-statement p {
-    font-family: 'Raleway', sans-serif;
-    font-size: 3rem;
+  font-family: "Raleway", sans-serif;
+  font-size: 3rem;
 }
-
-
 
 /* Transition Elements (Arrows) */
-.navigation-statement h1{
-    font-size: 2rem;
+.navigation-statement h1 {
+  font-size: 2rem;
 }
-.navigation-statement p{
-    font-size: 1.2rem;
-    /* Change font families.  */
+.navigation-statement p {
+  font-size: 1.2rem;
+  /* Change font families.  */
 }
-.arrow{
-    text-align: center;
-    padding: 1rem;
+.arrow {
+  text-align: center;
+  padding: 1rem;
 }
-
-
 
 /* ABOUT */
-.about-items{
-    margin: 2% 0px 2% 0px;
-    font-size: 1.9rem;
-    font-family: "Inter", sans-serif;
+.about-items {
+  margin: 2% 0px 2% 0px;
+  font-size: 1.9rem;
+  font-family: "Inter", sans-serif;
 }
-#about-logos img{
-    margin: 0px .5rem;
+#about-logos img {
+  margin: 0px 0.5rem;
 }
 
-
+/* PROJECTS */
+.github-project-link {
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #3cdfff;
+}
+.github-project-link:hover {
+  color: #3cdfff;
+  filter: brightness(75%);
+  transition: 0.2s;
+}
 
 /* BLOG CARDS */
 .card {
-    background-color: rgb(63, 63, 63) !important;
-    color: rgba(255, 255, 255, 0.897);
-    font-family: 'Inter', sans-serif;
+  background-color: rgb(63, 63, 63) !important;
+  color: rgba(255, 255, 255, 0.897);
+  font-family: "Inter", sans-serif;
 }
 .card-title {
-    font-family: 'Monsterrat', sans-serif;
-    font-weight: bold !important;
+  font-family: "Monsterrat", sans-serif;
+  font-weight: bold !important;
 }
-.card-subtitle{
-    color: rgb(192, 192, 192);;
+.card-subtitle {
+  color: rgb(192, 192, 192);
 }
-.card-text{
-    font-size: 1rem;
+.card-text {
+  font-size: 1rem;
 }
-.card:hover{
-    border-bottom: 5px solid #3cdfff;
-    transition: .2s;
+.blog-card:hover {
+  border-bottom: 5px solid #3cdfff;
+  transition: 0.2s;
 }
-.card-pic{
-    object-fit: cover;
-    height: 100%;
-    border-radius: 12px;
+.card-pic {
+  object-fit: cover;
+  height: 100%;
+  border-radius: 12px;
 }
-
-
-
-
 
 /* Blog posts */
 /* Home Nav */
-.nameplate{
-    position: relative;
-    top: .4rem;
-    font-family: 'Inter', sans-serif;
-    font-size: 3rem;
+.nameplate {
+  position: relative;
+  top: 0.4rem;
+  font-family: "Inter", sans-serif;
+  font-size: 3rem;
 }
-#color1{
-    color: #3cdfff;
+#color1 {
+  color: #3cdfff;
+}
+#color2 {
+  color: white;
+}
 
-}
-#color2{
-    color: white;
-}
 /* Text Elements */
-.blog-title{
-    color:#3cdfff;
-    font-family: sans-serif;
-    font-size: 2.3rem;
-    font-weight: bold;
+.blog-title {
+  color: #3cdfff;
+  font-family: sans-serif;
+  font-size: 2.3rem;
+  font-weight: bold;
 }
-.blog-header{
-    color:#3cdfff;
-    font-size: 2rem;
-    font-family: 'Raleway', sans-serif;
-    font-weight: bold;
+.blog-header {
+  color: #3cdfff;
+  font-size: 2rem;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
 }
-.blog-text{
-    font-size: 1.5rem;
-    font-family: sans-serif;
-    font-weight: 500;
+.blog-text {
+  font-size: 1.5rem;
+  font-family: sans-serif;
+  font-weight: 500;
 }
-
 
 /* NEWSLETTER (dynamic) */
 
-#input-email{
-    width: 20rem;
-    height: 3rem;
-    border-radius: 5px;
-    border: 2px solid white;
+#input-email {
+  width: 20rem;
+  height: 3rem;
+  border-radius: 5px;
+  border: 2px solid white;
 }
 #submit-button {
-    position: relative;
-    bottom: 2px;
-    width: 6rem;
-    height: 3rem;
+  position: relative;
+  bottom: 2px;
+  width: 6rem;
+  height: 3rem;
 }
-#input-email::placeholder{
-    position: relative;
-    left: .07rem;
-    color: black;
-    transition: color .5s ease;
+#input-email::placeholder {
+  position: relative;
+  left: 0.07rem;
+  color: black;
+  transition: color 0.5s ease;
 }
-#input-email:focus::placeholder{
-    color: transparent;
+#input-email:focus::placeholder {
+  color: transparent;
 }
-
 
 /* FOOTER */
-.footer{
-    background-color: rgb(116, 116, 116);
+.footer {
+  background-color: rgb(116, 116, 116);
 }
-.copyright{
-    color: #121212;
-    font-size: 1.5rem;
+.copyright {
+  color: #121212;
+  font-size: 1.5rem;
 }
-
-
-
-
-
-
 
 /* MEDIA QUERIES */
 
-@media screen and (min-width: 900px){
-    .mobile-only{
-        display: none !important;
-    }
+@media screen and (min-width: 900px) {
+  .mobile-only {
+    display: none !important;
+  }
 }
 @media all and (max-width: 650px) {
-    .copyright{
-        font-size: 1rem;
-    }
-    .copy-pic{
-        width: 1.5rem;
-    }
-    #input-email{
-        max-width: 70%;
-    }
-    #submit-button{
-        font-size: smaller;
-        max-width: 25%;
-        height: 3rem;
-    }
-    .main-statement h1{
-        font-size: 3.7rem;
-    }
-    .main-statement p {
-        font-size: 1.5rem;
-    }
-    .about-items p{
-        font-size: 1.3rem !important;
-    }
-    .desktop-only{
-        display: none !important;
-    }
+  .copyright {
+    font-size: 1rem;
+  }
+  .copy-pic {
+    width: 1.5rem;
+  }
+  #input-email {
+    max-width: 70%;
+  }
+  #submit-button {
+    font-size: smaller;
+    max-width: 25%;
+    height: 3rem;
+  }
+  .main-statement h1 {
+    font-size: 3.7rem;
+  }
+  .main-statement p {
+    font-size: 1.5rem;
+  }
+  .about-items p {
+    font-size: 1.3rem !important;
+  }
+  .desktop-only {
+    display: none !important;
+  }
 }
-
-
-
-
-
-
-
